@@ -1,1 +1,1 @@
-console.log('teste teste mais um teste');
+console.log('teste de hoje');
