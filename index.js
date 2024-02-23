@@ -207,7 +207,7 @@ var tamanhoTotal = areaCalculada(4, 6)
 //                        exercicio 4 (aula 6)
 
 function numeros(array){
-    return [(array[8])/2, (array[0])/2];  // <<<<<<<<< revisar
+    return [(array[array.lenght])/2, (array[0])/2];  // <<<<<<<<< revisar
 }
     console.log(numeros([1,2,3,4,5,6,7,8,12])) // [4.5, 0.5]
 */
