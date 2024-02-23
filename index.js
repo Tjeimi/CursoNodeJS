@@ -231,3 +231,144 @@ let somaNumbers = (num1, num2) => {
 }
     console.log(somaNumbers(2, 3));
 */
+//                                       AULA 7
+//                                   >> OBJETOS <<
+/*
+const professor = {
+    nome: 'Vitor',
+    idade: 27,
+    tarefas: ['Dar aula', "Responder dúvidas"],
+    contarPiada: function() {
+        console,log('É pa vê ou pa comê?')
+    }
+}
+console.log(professor.idade)    <<<< NOTAÇÃO DE PONTO
+//         ou
+console.log(professor[ "tarefas" ])     <<<< NOTAÇÃO DE COLCHETES
+
+
+//                                    ALTERANDO VALORES
+
+console.log(professor.nome);
+console.log(professor["idade"]);
+    professor.nome = "Vagner";
+    console.log(professor.nome);
+    */
+
+//                                exercicio 1 (aula 7)
+/*
+const meuFilme = {
+    nome: 'Filme do Vogel',
+    diretor: 'Vagner',
+    anoLancamento: 1981,
+    elenco: ['Nestor', 'Neli', 'Vanessa', 'Elber', 'Tjeimi'],
+    jaAssistiu: true   
+}
+console.log(meuFilme.nome);
+console.log(meuFilme.diretor);
+console.log(meuFilme.anoLancamento);
+console.log(meuFilme[ "elenco" ]);
+console.log(meuFilme[ "jaAssistiu" ]);
+*/
+
+//                                exercicio 2 (aula 7)
+/*
+const pessoa = {
+    nome: 'Vagner',
+    idade: 42,
+    estiloMusical: 'rock',
+}
+console.log(`O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos e gosta muito de ${pessoa.estiloMusical}`)
+*/
+//                 EXEMPLO DE ACESSANDO OBJETOS DENTRO DE OBJETOS {{ }}  
+/*
+const donoDoPet = {
+    nome: "Vitor Hugo",
+    pet: {
+    nomeDoPet: "Wanda",
+    raca: "Vira-lata",
+    idade: 1
+}
+}
+console.log(donoDoPet.pet.nomeDoPet) // Wanda
+*/
+//                 EXEMPLO DE ACESSANDO ARRAYS DENTRO DE OBJETOS {[ ]}
+/*
+const curso = {
+    nome: "Noturno frontend",
+    linguagens: ["JS", "CSS", "HTML"]
+}
+console.log(curso.linguagens[0])
+*/
+//                 EXEMPLO DE ARRAY DE OBJETOS
+/*
+const professores = [
+    {nome: "Andrei", modulo: 1},
+    {nome: "Vitor", modulo: 2},
+    {nome: "Mina", modulo: 3}
+]
+console.log(professores[1].nome)
+*/
+//                 ADICIONANDO PROPRIEDADES
+/*
+const curso = {
+    nome: "Frontend",
+    linguagens: ["JS", "CSS", "HTML"]
+    }
+//           NOTAÇÃO DE PONTO
+//                  OU    
+//           NOTAÇÃO DE COLCHETES
+// console.log(curso.numeroEstudantes = 50)
+// console.log(curso['numeroEstudantes'] = 50)
+*/
+//                              exercicio 3 (aula 7)
+/*
+const meuFilme = {
+    nome: 'Filme do Vogel',
+    diretor: 'Vagner',
+    anoLancamento: 1981,
+    elenco: ['Nestor', 'Neli', 'Vanessa', 'Elber', 'Tjeimi'],
+    jaAssistiu: true   
+}
+meuFilme.personagens= ["personagem1", "personagme2", "personagem3", "personagem4", "personagem5"];
+
+console.log(meuFilme.elenco[0] + " - " + meuFilme.personagens[0]);
+console.log(meuFilme.elenco[1] + " - " + meuFilme.personagens[1]);
+console.log(meuFilme.elenco[2] + " - " + meuFilme.personagens[2]);
+console.log(meuFilme.elenco[3] + " - " + meuFilme.personagens[3]);
+console.log(meuFilme.elenco[4] + " - " + meuFilme.personagens[4]);
+
+meuFilme.elenco[0] = "XUXA";
+console.log(meuFilme.elenco[0]);
+console.log(meuFilme);
+*/
+//                         ESPALHAMENTO OU SPREAD
+/*
+const usuario = {
+    nome: 'Prof',
+    idade: 25,
+    email: 'prof@senacrs.com.br',
+    cidade: 'São Paulo'
+}
+const novoUsuario = {
+...usuario,
+nome: 'João',
+idade: 28
+}
+*/
+//                          COPIANDO ARRAYS
+/*
+const listaDeNomes = ["Mika", "Paula", "Vitor"]
+const copiaListaDeNomes = [...listaDeNomes]
+    console.log(copiaListaDeNomes)
+*/
+//                              exercicio 4 (aula 7)
+
+
+
+
+
+
+
+
+
