@@ -16,12 +16,14 @@ var idade = prompt("Qual a sua idade?");
 //                    OPERADORES ARITMÉTICOS
 
 /*                            SOMA
+
 const primeiroValor = 10
 const segundoValor = 20
 const resultado = primeiroValor + segundoValor + 4
     console.log(resultado) //34
 
 //                          SUBTRAÇÃO
+
 const valor1 = 10
 const valor2 = 20
 const valor3 = valor2 - valor1
@@ -29,6 +31,7 @@ const valor3 = valor2 - valor1
 */
 /*
 //                         MULTIPLICAÇÃO
+
 const valorA = 10
 const valorB = 25
 const valorC = valorB * valorA
@@ -36,6 +39,7 @@ const valorC = valorB * valorA
 */
 /*
 //                             DIVISÃO
+
 const valorX = 345
 const valorY = 10
 const valorZ = valorX / valorY
@@ -43,11 +47,13 @@ const valorZ = valorX / valorY
 */
 /*
 //                         RESTO DA DIVISÃO
+
 const restoDaDivisao = 11 % 4
     console.log(restoDaDivisao) // 3
 */
 /*
 //                        exercicio 1 (aula 4)
+
 // A)
 var a = 3
 var b = 4
@@ -75,6 +81,7 @@ var restoDivisao = 234 % 5
 */
 /*
 //                       exercicio 2 (aula 4)
+
 // A)
 var a = 2
 var b = 3
@@ -110,6 +117,7 @@ var c = true
 */
 /*
 //                       exercicio 4 (aula 4)
+
 var a = true
 var b = false
 var c = true
@@ -135,12 +143,15 @@ var anoTotal = anoFinal - anoNascimento;
     console.log(`${nome}, você terá ${anoTotal} anos de idade em ${anoFinal}.`);
 */
 //                        exercicio 1 (aula 5)
+
 /*      >> exemplo com concatenação <<
+
 const nome = prompt("Digite o seu nome:")
 const cor = prompt("Qual a sua cor preferida?")
     console.log("A cor favorita do " + nome + " é " + cor)
 */
 /*      >> exemplo com template strings <<
+
 const nome = prompt("Digite o seu nome:")
 const cor = prompt("Qual a sua cor favorita?")
     console.log(`A cor favorita do ${nome} é ${cor}`)
@@ -214,6 +225,7 @@ function numeros(array){
 /*
 
 //                    >> EXPRESSÕES DE FUNÇÃO <<
+
 //                       exercicio 5 (aula 6)
 
 //               ** SINTAXE DE EXPRESSÃO DE FUNÇÃO **
@@ -231,8 +243,9 @@ let somaNumbers = (num1, num2) => {
 }
     console.log(somaNumbers(2, 3));
 */
-//                                       AULA 7
-//                                   >> OBJETOS <<
+//                            AULA 7
+
+//                         >> OBJETOS <<
 /*
 const professor = {
     nome: 'Vitor',
@@ -247,7 +260,7 @@ console.log(professor.idade)    <<<< NOTAÇÃO DE PONTO
 console.log(professor[ "tarefas" ])     <<<< NOTAÇÃO DE COLCHETES
 
 
-//                                    ALTERANDO VALORES
+//                      ALTERANDO VALORES
 
 console.log(professor.nome);
 console.log(professor["idade"]);
@@ -255,7 +268,7 @@ console.log(professor["idade"]);
     console.log(professor.nome);
     */
 
-//                                exercicio 1 (aula 7)
+//                      exercicio 1 (aula 7)
 /*
 const meuFilme = {
     nome: 'Filme do Vogel',
@@ -271,7 +284,7 @@ console.log(meuFilme[ "elenco" ]);
 console.log(meuFilme[ "jaAssistiu" ]);
 */
 
-//                                exercicio 2 (aula 7)
+//                       exercicio 2 (aula 7)
 /*
 const pessoa = {
     nome: 'Vagner',
@@ -280,7 +293,7 @@ const pessoa = {
 }
 console.log(`O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos e gosta muito de ${pessoa.estiloMusical}`)
 */
-//                 EXEMPLO DE ACESSANDO OBJETOS DENTRO DE OBJETOS {{ }}  
+//           EXEMPLO DE ACESSANDO OBJETOS DENTRO DE OBJETOS {{ }}  
 /*
 const donoDoPet = {
     nome: "Vitor Hugo",
@@ -292,7 +305,7 @@ const donoDoPet = {
 }
 console.log(donoDoPet.pet.nomeDoPet) // Wanda
 */
-//                 EXEMPLO DE ACESSANDO ARRAYS DENTRO DE OBJETOS {[ ]}
+//          EXEMPLO DE ACESSANDO ARRAYS DENTRO DE OBJETOS {[ ]}
 /*
 const curso = {
     nome: "Noturno frontend",
@@ -300,7 +313,7 @@ const curso = {
 }
 console.log(curso.linguagens[0])
 */
-//                 EXEMPLO DE ARRAY DE OBJETOS
+//                EXEMPLO DE ARRAY DE OBJETOS
 /*
 const professores = [
     {nome: "Andrei", modulo: 1},
@@ -318,10 +331,11 @@ const curso = {
 //           NOTAÇÃO DE PONTO
 //                  OU    
 //           NOTAÇÃO DE COLCHETES
+
 // console.log(curso.numeroEstudantes = 50)
 // console.log(curso['numeroEstudantes'] = 50)
 */
-//                              exercicio 3 (aula 7)
+//                    exercicio 3 (aula 7)
 /*
 const meuFilme = {
     nome: 'Filme do Vogel',
@@ -342,7 +356,7 @@ meuFilme.elenco[0] = "XUXA";
 console.log(meuFilme.elenco[0]);
 console.log(meuFilme);
 */
-//                         ESPALHAMENTO OU SPREAD
+//                     ESPALHAMENTO OU SPREAD
 /*
 const usuario = {
     nome: 'Prof',
@@ -356,13 +370,29 @@ nome: 'João',
 idade: 28
 }
 */
-//                          COPIANDO ARRAYS
+//                       COPIANDO ARRAYS
 /*
 const listaDeNomes = ["Mika", "Paula", "Vitor"]
 const copiaListaDeNomes = [...listaDeNomes]
     console.log(copiaListaDeNomes)
 */
-//                              exercicio 4 (aula 7)
+//                       exercicio 4 (aula 7)
+/*
+const pessoa = {
+    nome: 'Vagner',
+    idade: 42,
+    comidasPreferidas: ["Pizza", " Churrasco", " e Lasanha"],
+    melhorAmigo: {
+        nome: 'Fúria',
+        idade: 8,
+    }
+}
+console.log(`O nome de pessoa é ${pessoa.nome} e suas comidas preferidas são ${pessoa.comidasPreferidas}. Seu melhor amigo se chama ${pessoa.melhorAmigo.nome} e tem ${pessoa.melhorAmigo.idade} anos.`)
+*/
+
+//                             AULA 8
+
+//                       exercicio 1 (aula 8)
 
 
 
