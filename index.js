@@ -394,6 +394,16 @@ console.log(`O nome de pessoa é ${pessoa.nome} e suas comidas preferidas são $
 
 //                       exercicio 1 (aula 8)
 
+function numeros(){
+    var num1 = 1;
+    var num2 = 2;
+    if(num1 > num2){
+        console.log('primeiro numero é mair que o segundo');
+    }else{
+        console.log('segundo numero é maior que o primeiro numero');
+    }
+}
+numeros();
 
 
 
