@@ -287,22 +287,22 @@ console.log(meuFilme[ "jaAssistiu" ]);
 //                       exercicio 2 (aula 7)
 /*
 const pessoa = {
-    nome: 'Vagner',                       <<<<<<<   REVISAR
+    nome: 'Vagner',                      
     idade: 42,
     estiloMusical: 'rock',
 }
-console.log(`O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos e gosta muito de ${pessoa.estiloMusical}`)
-
+//console.log(`O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos e gosta muito de ${pessoa.estiloMusical}`)
 function exercicio4(objetoPessoa, arrayComidas,objetoMelhorAmigo){
     var novoObjeto = {...objetoPessoa, comidasPreferidas: arrayComidas, melhorAmigo:
     objetoMelhorAmigo};
 
-    console.log('O nome da pessoa é ${novoObjeto.nome} e suas comidas preferidas são ${novoObjeto.comidasPreferidas[0]}, ${novoObjeto.comidasPreferidas[1]},${novoObjeto.comidasPreferidas[2]}. Seu melhor amigo se chama ${novoObjeto.melhorAmigo.nome} e tem ${novoObjeto.melhorAmigo.idade} anos,');
+    console.log(`O nome da pessoa é ${novoObjeto.nome} e suas comidas preferidas são ${novoObjeto.comidasPreferidas[0]}, ${novoObjeto.comidasPreferidas[1]},${novoObjeto.comidasPreferidas[2]}. Seu melhor amigo se chama ${novoObjeto.melhorAmigo.nome} e tem ${novoObjeto.melhorAmigo.idade} anos,`);
 }
-exercicio4(pessoa, ["arroz", "feijao", "carne"], {nome:
+exercicio4(pessoa, ["arroz", "feijao", " carne"], {nome:
 "joao", idade: 10});
-
 */
+
+
 //           EXEMPLO DE ACESSANDO OBJETOS DENTRO DE OBJETOS {{ }}  
 /*
 const donoDoPet = {
@@ -459,6 +459,7 @@ if (condicao1){
     }
 }
 */
+/*
 function comparaNumeros(num1, num2){
     if(num1 < num2){
         return `O primeiro número é menor que o segundo`;
@@ -470,15 +471,8 @@ function comparaNumeros(num1, num2){
     }
 }
 console.log(comparaNumeros(prompt("Digite um numero"), prompt("Digite outro numero")));
-
-
-
-
-
-
-
-    
-
+*/
+/*
 function numeros(){
     var num1 = prompt('digite um numero');
        console.log(num1)
