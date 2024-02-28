@@ -274,11 +274,21 @@ console.log(meuFilme[ "jaAssistiu" ]);
 //                                exercicio 2 (aula 7)
 /*
 const pessoa = {
-    nome: 'Vagner',
+    nome: 'Vagner',                       <<<<<<<   REVISAR
     idade: 42,
     estiloMusical: 'rock',
 }
 console.log(`O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos e gosta muito de ${pessoa.estiloMusical}`)
+
+function exercicio4(objetoPessoa, arrayComidas,objetoMelhorAmigo){
+    var novoObjeto = {...objetoPessoa, comidasPreferidas: arrayComidas, melhorAmigo:
+    objetoMelhorAmigo};
+
+    console.log('O nome da pessoa é ${novoObjeto.nome} e suas comidas preferidas são ${novoObjeto.comidasPreferidas[0]}, ${novoObjeto.comidasPreferidas[1]},${novoObjeto.comidasPreferidas[2]}. Seu melhor amigo se chama ${novoObjeto.melhorAmigo.nome} e tem ${novoObjeto.melhorAmigo.idade} anos,');
+}
+exercicio4(pessoa, ["arroz", "feijao", "carne"], {nome:
+"joao", idade: 10});
+
 */
 //                 EXEMPLO DE ACESSANDO OBJETOS DENTRO DE OBJETOS {{ }}  
 /*
@@ -362,10 +372,101 @@ const listaDeNomes = ["Mika", "Paula", "Vitor"]
 const copiaListaDeNomes = [...listaDeNomes]
     console.log(copiaListaDeNomes)
 */
-//                              exercicio 4 (aula 7)
+//                           exercicio 4 (aula 7)
+//  
+/*               >>> if (aula 8)
+let condicao1 = true;
+if(condicao1){
+    console.log('Entrei no if 1');
+}
+let condicao2 = false;
+if(condicao2){
+    console.log('Entrei no if 2');
+}
+*/
+/*
+function numeros(num1, num2){
+    if(num1 === num2){console.log("sucesso");}
+}
+numeros(prompt("Digite num1"), prompt("Digite num2"));
+*/
+/*
+function fulano(){
+    var nome = prompt('Digite o seu nome:');
+    var idade = prompt('Qual a sua idade');
+         if(idade > 18){
+             console.log(`${nome}, você pode dirigir`);
+         }else{
+             console.log(`${nome}, você não pode dirigir`);
+         }
+             
+ }
+ fulano()
+ */
+/*
+ function podeDirigir(nome, idade){
+    if(idade >= 18){
+        return `${nome}, voce pode dirigir`;
+    }
+ }
+ console.log(podeDirigir(prompt("Digite seu nome"),prompt("Digite sua idade")));
+*/
+/*
+let condicao = false
+if (condicao){
+    console.log('Entrei no if')
+} else {
+    console.log('Entrei no else!')
+}
+*/
+/*
+function comparaNumeros(num1, num2){
+    if(num1 === num2){
+        return `os numeros sao iguais`;
+    }else{
+        return `os numeros sao diferentes`
+    }
+}
+console.log(comparaNumeros(prompt("Digite um numero"), prompt("Digite outro numero")));
+*/
+/*
+let condicao1 = false
+let condicao2 = true
+
+if (condicao1){
+    console.log('Entrei no if 1')
+} else {
+    // como o valor da condicao1 é false,
+    // o codigo do else será executado
+    if (condicao2) {
+        // Como o valor da condicao2 é true,
+        // executaremos esse código
+        console.log('Entrei no if 2')
+    }
+}
+*/
+function comparaNumeros(num1, num2){
+    if(num1 < num2){
+        return `O primeiro número é menor que o segundo`;
+    }
+    if(num1 > num2){
+        return `O primeiro número é maior que o segundo`
+    }else{
+        return `os numeros sao iguais`
+    }
+}
+console.log(comparaNumeros(prompt("Digite um numero"), prompt("Digite outro numero")));
 
 
 
+
+
+
+
+    
+
+
+    
 
 
 
