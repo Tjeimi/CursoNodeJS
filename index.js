@@ -393,21 +393,25 @@ console.log(`O nome de pessoa é ${pessoa.nome} e suas comidas preferidas são $
 //                             AULA 8
 
 //                       exercicio 1 (aula 8)
-/*
+
 function numeros(){
     var num1 = prompt('digite um numero');
-       // console.log(num1)
+       console.log(num1)
     var num2 = prompt('digite outro numero');
-        //console.log(num2)
+        console.log(num2)
+   
     if(num1 > num2){
-        console.log('primeiro numero é maior que o segundo');
-    }else{
-        console.log('segundo numero é maior que o primeiro numero');
+        console.log('Primeiro numero é maior que o segundo');
+    }if(num1 < num2){
+        console.log('Segundo numero é maior que o primeiro numero');
+    }else if(num1 = num2){
+        console.log('Os números são iguais');
     }
 }
 numeros();
-*/
+
 //                          exercicio 1
+/*
 function fulano(){
    var nome = prompt('Digite o seu nome:');
    var idade = prompt('Qual a sua idade');
@@ -419,6 +423,7 @@ function fulano(){
             
 }
 fulano()
+*/
 
 
 
